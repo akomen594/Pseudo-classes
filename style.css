@@ -1,0 +1,92 @@
+.hover :hover{
+    font-weight: bold;
+    font-size: larger;
+    color: #12dcf7;
+}
+
+
+.active :active{
+    font-style: italic;
+    color: red;
+}
+
+
+.visited :visited{
+    color: rgb(135, 156, 42);
+}   
+
+
+::marker{
+    color: blue;
+}
+
+
+.form{ 
+    margin-top: 2em;
+}
+
+
+input:focus{
+    color: green;
+    font-size: 20px;
+}
+
+
+.nav-list{
+    width: 70em;
+    height: 5em;
+    background-color: darkblue;
+    display: flex;
+}
+
+
+.nav-list >*{
+    width: 100%;
+    list-style: none;
+    cursor: pointer;
+}
+
+
+.nav-list li:hover{
+    color: darkgreen;
+    background-color: lightblue;  
+}
+
+
+.no-space-left{
+    height: 3.5em;
+    padding-top: 1.5em;
+    text-align: left;
+}
+
+
+.currentPage{
+    height: 3.5em;
+    margin-left: 1em;
+    padding-top: 1.5em;
+    text-align: center;
+    background-color: grey;
+}
+
+
+.search-bar{
+    height: 3.5em;  
+    margin-left: 1em;
+    padding-top: 1.5em;
+    padding-left: 1em;
+    padding-right: 5.5em;
+    text-align: center;    
+}
+
+
+.search-bar input{
+    background-color: white;
+    color: black;
+}
+
+
+.search-bar input:hover{
+    border-radius: 2em;
+    border-color: aquamarine;
+    font-size: 2em;
+}
